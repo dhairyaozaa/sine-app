@@ -1,0 +1,11 @@
+node_modules/
+client/node_modules/
+client/dist/
+data/
+server/uploads/
+python/.venv/
+python/__pycache__/
+python/*/__pycache__/
+*.pyc
+.env
+*.log
