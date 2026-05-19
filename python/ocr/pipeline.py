@@ -5,6 +5,8 @@ Automatically finds Tesseract on Windows
 import os
 import logging
 from pathlib import Path
+import pytesseract
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 log = logging.getLogger(__name__)
 
